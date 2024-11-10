@@ -1,0 +1,40 @@
+
+.background-image {
+  background-image: url("../Components/images/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;  
+}
+
+.no-background {
+  background: none;  
+}
+
+
+.start-button {
+  padding: 20px 30px;
+  font-size: 18px;
+  margin-left: 730px;
+  margin-top: 370px;
+  background-color: #724caf;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #45a049;
+}
+
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader {
+  color: #4CAF50;
+}
